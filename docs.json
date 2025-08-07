@@ -8,7 +8,6 @@
     "dark": "#092820"
   },
   "favicon": "/Favicon.svg",
-  
   "navigation": {
     "tabs": [
       {
@@ -25,8 +24,55 @@
           {
             "group": "Product Features",
             "pages": [
-              "product-features/importing/contract-collector",
-              "product-features/importing/other-ways-contracts"
+              {
+                "group": "agreement-verification",
+                "pages": [
+                  "product-features/agreement-verification/index"
+                ]
+              },
+              {
+                "group": "ai",
+                "pages": [
+                  "product-features/ai/index"
+                ]
+              },
+              {
+                "group": "data-model",
+                "pages": [
+                  "product-features/data-model/index"
+                ]
+              },
+              {
+                "group": "importing",
+                "pages": [
+                  "product-features/importing/contract-collector",
+                  "product-features/importing/other-ways-contracts"
+                ]
+              },
+              {
+                "group": "renewal",
+                "pages": [
+                  "product-features/renewal/index"
+                ]
+              },
+              {
+                "group": "request",
+                "pages": [
+                  "product-features/request/index"
+                ]
+              },
+              {
+                "group": "slack",
+                "pages": [
+                  "product-features/slack/index"
+                ]
+              },
+              {
+                "group": "table-view",
+                "pages": [
+                  "product-features/table-view/index"
+                ]
+              }
             ]
           },
           {
@@ -43,19 +89,19 @@
               {
                 "group": "Credit Cards",
                 "pages": [
-                  "content/integrations/credit-cards/page-one"
+                  "content/integrations/credit-cards/index"
                 ]
               },
               {
                 "group": "HRIS",
                 "pages": [
-                  "content/integrations/hris/page-one"
+                  "content/integrations/hris/index"
                 ]
               },
               {
                 "group": "Messaging",
                 "pages": [
-                  "content/integrations/messaging/page-one"
+                  "content/integrations/messaging/index"
                 ]
               }
             ]
