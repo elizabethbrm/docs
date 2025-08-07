@@ -16,7 +16,6 @@
           {
             "group": "Getting started with BRM",
             "pages": [
-              "index",
               "quickstart",
               "development"
             ]
