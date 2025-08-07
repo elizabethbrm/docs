@@ -25,50 +25,50 @@
             "group": "Product Features",
             "pages": [
               {
-                "group": "agreement-verification",
+                "group": "Agreement Verification",
                 "pages": [
                   "product-features/agreement-verification/index"
                 ]
               },
               {
-                "group": "ai",
+                "group": "AI",
                 "pages": [
                   "product-features/ai/index"
                 ]
               },
               {
-                "group": "data-model",
+                "group": "Data Model",
                 "pages": [
                   "product-features/data-model/index"
                 ]
               },
               {
-                "group": "importing",
+                "group": "Importing",
                 "pages": [
                   "product-features/importing/contract-collector",
                   "product-features/importing/other-ways-contracts"
                 ]
               },
               {
-                "group": "renewal",
+                "group": "Renewal",
                 "pages": [
                   "product-features/renewal/index"
                 ]
               },
               {
-                "group": "request",
+                "group": "Request",
                 "pages": [
                   "product-features/request/index"
                 ]
               },
               {
-                "group": "slack",
+                "group": "Slack",
                 "pages": [
                   "product-features/slack/index"
                 ]
               },
               {
-                "group": "table-view",
+                "group": "Table View",
                 "pages": [
                   "product-features/table-view/index"
                 ]
