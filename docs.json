@@ -26,7 +26,8 @@
            {
             "group": "Product Features",
             "pages": [
-              "products-features/importing/contract-collector",
+              "product-features/importing/contract-collector",
+              "product-features/importing/other-ways-contracts",
               "essentials/code",
               "essentials/images",
               "essentials/reusable-snippets"
