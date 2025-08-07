@@ -32,9 +32,8 @@
           {
             "group": "Product Features",
             "pages": [
-              "product-features/importingData",
-              "product-features/contract-management",
-              "product-features/renewal-management"
+              "content/product-features/Importing-Data/ContractCollector",
+              "content/product-features/Importing-Data/HowToUseContractsToBRM",
             ]
           },
           {
