@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "BRM Support Page",
   "colors": {
-    "primary": "#FFC0CB",
+    "primary": "#00BF86",
     "light": "#D5FF8E",
     "dark": "#092820"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/title.svg",
   "navigation": {
     "tabs": [
       {
