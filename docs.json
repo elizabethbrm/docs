@@ -24,7 +24,7 @@
           },
           
            {
-            "group": "Use Case",
+            "group": "Product Features",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -33,7 +33,7 @@
             ]
           },
          {
-            "group": "Use Case",
+            "group": "Integrations",
             "pages": [
               "essentials/markdown",
               "essentials/code",
