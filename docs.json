@@ -23,17 +23,22 @@
             ]
           },
           
-          {
-            "group": "Integrations",
+           {
+            "group": "Use Case",
             "pages": [
-              "content/integrations/accounting-erp"
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
             ]
           },
-          {
-            "group": "Product Features",
+         {
+            "group": "Use Case",
             "pages": [
-              "product-features/importing/contract-collector",
-              "product-features/importing/other-ways-contracts"
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
             ]
           },
           {
