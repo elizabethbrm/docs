@@ -21,15 +21,7 @@
               "content/get-started/product-overview"
             ]
           },
-           {
-            "dropdown": "Getting Started with BRM drop",
-             "icon": "book-open",
-            "pages": [
-              "content/get-started/brmlite",
-              "content/get-started/what-is-brm",
-              "content/get-started/product-overview"
-            ]
-          },
+          
           {
             "group": "Integrations",
             "pages": [
