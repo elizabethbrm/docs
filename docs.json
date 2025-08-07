@@ -8,30 +8,7 @@
     "dark": "#092820"
   },
   "favicon": "/title.svg",
-  "navigation": {
-    "tabs":[
-      {
-        "tab": "Test",
-        "icon": "sqaure-terminal",
-        "menu": [
-          {
-            "item":"rocket",
-            "groups": [
-              {
-                "group": "API Reference",
-                "icon": "square-termnial"
-                "pages": [
-                  "content/get-started/brmlite",
-              "content/get-started/what-is-brm",
-              "content/get-started/product-overview"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  
   "navigation": {
     "tabs": [
       {
