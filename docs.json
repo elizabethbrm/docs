@@ -16,9 +16,9 @@
           {
             "group": "Getting Started with BRM",
             "pages": [
-              "brmlite",
-              "what-is-brm",
-              "product-overview"
+              "content/get-started/brmlite",
+              "content/get-started/what-is-brm",
+              "content/get-started/product-overview"
             ]
           },
           {
