@@ -27,7 +27,8 @@
               {
                 "group": "Agreement Verification",
                 "pages": [
-                  "product-features/agreement/verifying-agreement"
+                  "product-features/agreement/verifying-agreement",
+                  "product-features/agreement/verify-slack"
                 ]
               },
               {
