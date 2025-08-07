@@ -14,30 +14,11 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started with BRM",
+            "group": "Getting Started with BRM",
             "pages": [
               "brmlite",
               "what-is-brm",
               "product-overview"
-            ]
-          },
-          {
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Docs",
-        "groups": [
-          {
-            "group": "Product Features",
-            "pages": [
-              "product-features"  
-            ]
-          },
-          {
-            "group": "Folders",
-            "pages": [
-              "Importing-Data/ContractCollector",
-              "Importing-Data/HowToUseContractsToBRM",
             ]
           },
           {
@@ -51,7 +32,8 @@
             "group": "Product Features",
             "pages": [
               "product-features/importingData",
-              "essentials/navigation"
+              "product-features/contract-management",
+              "product-features/renewal-management"
             ]
           },
           {
@@ -113,15 +95,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
