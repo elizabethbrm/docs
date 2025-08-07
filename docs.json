@@ -118,9 +118,24 @@
           {
             "group": "Administration",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              {
+                "group": "Security",
+                "pages": [
+                  "administration/security/index"
+                ]
+              },
+              {
+                "group": "Identity and Access Management",
+                "pages": [
+                  "administration/identity-access/index"
+                ]
+              },
+              {
+                "group": "Users",
+                "pages": [
+                  "administration/user/index"
+                ]
+              }
             ]
           }
         ]
