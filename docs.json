@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting started with BRM",
             "pages": [
               "index",
               "quickstart",
@@ -25,6 +25,13 @@
             "group": "Customization",
             "pages": [
               "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "product-features",
+            "pages": [
+              "product-features/importingData/ContractCollector.mdx",
               "essentials/navigation"
             ]
           },
