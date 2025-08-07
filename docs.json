@@ -32,8 +32,8 @@
           {
             "group": "Product Features",
             "pages": [
-              "product-features/Importing-Data/ContractCollector",
-              "product-features/Importing-Data/HowToUseContractsToBRM"
+              "product-features/importing/contract-collector",
+              "product-features/importing/other-ways-contracts"
             ]
           },
           {
