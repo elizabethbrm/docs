@@ -27,13 +27,13 @@
               {
                 "group": "Agreement Verification",
                 "pages": [
-                  "product-features/agreement-verification/index"
+                  "product-features/agreement/index"
                 ]
               },
               {
                 "group": "AI",
                 "pages": [
-                  "product-features/ai/index"
+                  "product-features/ai"
                 ]
               },
               {
@@ -70,7 +70,7 @@
               {
                 "group": "Table Views",
                 "pages": [
-                  "product-features/table-view/index"
+                  "product-features/table/index"
                 ]
               }
             ]
