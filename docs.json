@@ -43,20 +43,20 @@
                 ]
               },
               {
-                "group": "Importing",
+                "group": "Importing Data into BRM",
                 "pages": [
                   "product-features/importing/contract-collector",
                   "product-features/importing/other-ways-contracts"
                 ]
               },
               {
-                "group": "Renewal",
+                "group": "Renewal Calendar & Notifications",
                 "pages": [
                   "product-features/renewal/index"
                 ]
               },
               {
-                "group": "Request",
+                "group": "Requests",
                 "pages": [
                   "product-features/request/index"
                 ]
@@ -68,7 +68,7 @@
                 ]
               },
               {
-                "group": "Table View",
+                "group": "Table Views",
                 "pages": [
                   "product-features/table-view/index"
                 ]
