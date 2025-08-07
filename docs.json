@@ -26,7 +26,7 @@
            {
             "group": "Product Features",
             "pages": [
-              "essentials/markdown",
+              "products-features/importing/contract-collector",
               "essentials/code",
               "essentials/images",
               "essentials/reusable-snippets"
