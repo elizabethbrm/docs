@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Integrations",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
@@ -31,12 +31,12 @@
           {
             "group": "Product Features",
             "pages": [
-              "product-features/importingData/ContractCollector.mdx",
+              "product-features/importingData",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Use Case",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -45,7 +45,7 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Administration",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
