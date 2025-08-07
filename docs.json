@@ -22,7 +22,7 @@
             ]
           },
            {
-            "dropdown": "Getting Started with BRM",
+            "dropdown": "Getting Started with BRM drop",
              "icon": "book-open",
             "pages": [
               "content/get-started/brmlite",
