@@ -1,0 +1,59 @@
+---
+title: "Contract Collector "
+description: "Learn how to use Contract Collector to import contracts into your BRM instance. "
+---
+
+BRM’s individual Gmail integration is designed to help you effortlessly find executed contracts and vendor documents with your paid vendors. It solves the common problem of asking, “Where is that signed contract?”
+
+### What Is Contract Collector?
+
+Contract collector is one of BRM's super agents. It automatically scans your authenticated Gmail for fully executed vendor agreements. It securely stores relevant documents and provides a review process to keep your organization organized and up-to-date, all while maintaining strict privacy controls.
+
+### How to connect
+
+Connecting Gmail takes 30 seconds, and can be done by any user within an organization.
+
+1. Login in to your BRM Account
+2. Click on `Settings`
+3. In the settings navigation bar, click on `Contract Collector`
+4. Click `Add Email` next to Gmail
+5. Follow the Google Authentication flow
+6. Head back to Agreements to see your contracts flow in
+
+**Video instructions**
+
+<iframe width="640" height="360" src="https://www.loom.com/embed/90b35e0e2e404bfbb0b121cf9919a947?sid=903a77c9-0ea0-4d3d-a278-f094de35dba8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+### Security & privacy
+
+BRM is designed with strict security and privacy controls to protect your data:
+
+**Selective Storage:** BRM only stores the content of emails that have been confirmed to include a vendor contract. Any email or contract that does not meet the criteria is NOT saved into BRM. 
+
+**Inbox Access:** Contract Collector only has access to the inbox that it is authenticated into.
+
+**Company Vendor Contracts:** Contracts are surfaced within BRM only if they are related to your company’s vendors. BRM will not ingest your own personal contracts. 
+
+**Review Before Sharing:** All contracts go through a review queue. You can verify, confirm, or delete contracts before they become visible to others in your organization.
+
+**What Happens After Gmail Is Disconnected: **
+
+- Contracts pending verification in the review queue are deleted.
+- Verified contracts remain stored with their respective vendors.
+- Any emails associated with stored contracts are deleted from BRM’s system.
+
+**Contract Search History:** Contract Collector automatically searches for contracts from the past three years. To extend this search period, contact support at [**support@brm.ai**](mailto:support@brm.ai) to adjust the timeframe for your organization.
+
+For more information, [read here.](https://support.brm.ai/articles/8605708212-contract-collector-data-security-privacy)
+
+### Inbox & email types supported 
+
+Contract Collector captures relevant contracts from your Gmail account with flexible support for different email scenarios:
+
+**Group Inbox Access:** Group inboxes aren’t supported due to Gmail API limitations. However, if one member of the group authenticates their email, Contract Collector will detect contracts associated with that account.
+
+**Forwarded and CC’d Contracts:** Contracts forwarded or CC’d in an email are captured automatically. You don’t need to be the signatory for the contract to be detected and processed.
+
+**Contract Completion Requirements:** Only fully executed contracts are captured by BRM. Partially signed contracts are not ingested.
+
+**Supported eSig providers: **We support DocuSign, PandaDoc, Dropbox Sign / HelloSign, and AdobeSign. You can request others by emailing [support@brm.ai](mailto:support@brm.ai).
