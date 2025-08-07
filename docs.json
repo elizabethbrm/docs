@@ -33,7 +33,7 @@
             "group": "Integrations",
             "pages": [
               {
-                "title": "Accounting ERP",
+                "group": "Accounting ERP",
                 "pages": [
                   "content/integrations/accounting-erp/netsuite-faq",
                   "content/integrations/accounting-erp/netsuite-token",
@@ -41,24 +41,21 @@
                 ]
               },
               {
-                "title": "Credit Cards",
+                "group": "Credit Cards",
                 "pages": [
-                  "content/integrations/credit-cards/page-one",
-                  "content/integrations/credit-cards/page-two"
+                  "content/integrations/credit-cards/page-one"
                 ]
               },
               {
-                "title": "HRIS",
+                "group": "HRIS",
                 "pages": [
-                  "content/integrations/hris/page-one",
-                  "content/integrations/hris/page-two"
+                  "content/integrations/hris/page-one"
                 ]
               },
               {
-                "title": "Messaging",
+                "group": "Messaging",
                 "pages": [
-                  "content/integrations/messaging/page-one",
-                  "content/integrations/messaging/page-two"
+                  "content/integrations/messaging/page-one"
                 ]
               }
             ]
