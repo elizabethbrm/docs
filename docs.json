@@ -24,8 +24,7 @@
           {
             "group": "Integrations",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "integrations/accounting-erp"
             ]
           },
           {
