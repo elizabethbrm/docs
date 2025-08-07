@@ -22,6 +22,25 @@
             ]
           },
           {
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Product Features",
+            "pages": [
+              "product-features"  
+            ]
+          },
+          {
+            "group": "Folders",
+            "pages": [
+              "Importing-Data/ContractCollector",
+              "Importing-Data/HowToUseContractsToBRM",
+            ]
+          },
+          {
             "group": "Integrations",
             "pages": [
               "essentials/settings",
