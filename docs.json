@@ -16,7 +16,7 @@
           {
             "group": "Getting started with BRM",
             "pages": [
-              "brmlite"
+              "brmlite",
               "quickstart",
               "development"
             ]
