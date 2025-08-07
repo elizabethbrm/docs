@@ -29,7 +29,7 @@
             ]
           },
           {
-            "group": "product-features",
+            "group": "Product Features",
             "pages": [
               "product-features/importingData/ContractCollector.mdx",
               "essentials/navigation"
