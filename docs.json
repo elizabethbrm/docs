@@ -98,8 +98,8 @@
               {
                 "group": "HRIS",
                 "pages": [
-                  "content/integrations/hris/deel",
-                  "content/integrations/hris/UKG"
+                  "content/integrations/HRIS/deel",
+                  "content/integrations/HRIS/UKG"
                 ]
               },
               {
