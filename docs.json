@@ -112,9 +112,8 @@
             "group": "Use Case",
             "pages": [
               "content/use-case/brm-for-approvers",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "content/use-case/brm-for-owners",
+              "content/use-case/brm-for-requestors"
             ]
           },
           {
