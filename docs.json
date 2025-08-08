@@ -41,7 +41,7 @@
               {
                 "group": "Data Model",
                 "pages": [
-                  "product-features/data-model/index"
+                  "product-features/data-model/understanding-vsa"
                 ]
               },
               {
@@ -54,25 +54,30 @@
               {
                 "group": "Renewal Calendar & Notifications",
                 "pages": [
-                  "product-features/renewal/index"
+                  "product-features/renewal-cal-not/assign-owner",
+                   "product-features/renewal-cal-not/owner-notifications"
                 ]
               },
               {
                 "group": "Requests",
                 "pages": [
-                  "product-features/request/index"
+                  "product-features/requests/request-overview"
+                  "product-features/requests/firstrequest",
+                  "product-features/requests/custom-request",
+                  "product-features/requests/custom-criteria",
+                  "product-features/requests/edit-request"
                 ]
               },
               {
                 "group": "Slack",
                 "pages": [
-                  "product-features/slack/index"
+                  "product-features/slack/overview-slack"
                 ]
               },
               {
                 "group": "Table Views",
                 "pages": [
-                  "product-features/table/index"
+                  "product-features/table/navigating-tables"
                 ]
               }
             ]
