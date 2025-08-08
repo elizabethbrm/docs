@@ -1,4 +1,121 @@
 ---
 title: "Netsuite Integration Instructions - Token-Based Authentication"
-description: "Description of your new file."
+description: "This article covers specific instructions on how to connect Netsuite to BRM.  If you would like an overview of how the integration works, read our FAQ here."
 ---
+
+## **Prerequisites**
+
+Please ensure you have **Administrator** permissions in your company's NetSuite instance, or someone has shared their access with you.
+
+This is for BRM Enterprise users.
+
+## **Step One: Finding your NetSuite Account ID**
+
+1. Log into your NetSuite portal.
+2. Copy the subdomain of the URL at the top of your browser and enter it within Merge Link.
+
+- Your NetSuite Account ID is the combination of letters or numbers before "[app.netsuite.com](http://app.netsuite.com)"
+- For example, if your URL is "[**https://7600508.app.netsuite.com/app/center/card.nl?sc=-29&whence=**](https://7600508.app.netsuite.com/app/center/card.nl?sc=-29&whence=)", the value to input within Merge Link is **7600508**
+
+![image.png](/Screenshot2025-08-07at9.10.47PM.png)
+
+---
+
+## **Step Two: Enable Web Services**
+
+1. Open the NetSuite [<u>Enable Features Page</u>](https://system.netsuite.com/app/setup/features.nl)
+2. Under SuiteCloud, check the following boxes then click save
+   1. **SOAP WEB SERVICES**
+   2. **REST WEB SERVICES**
+   3. **TOKEN-BASED AUTHENTICATION**
+
+![image.png](/images/image.png)
+
+---
+
+## **Step Three: Install the AccountLink NetSuite bundle**
+
+1. Install the following Permissions Bundle
+   1. [**<u>Merge Read-only Permissions Bundle</u>**](https://system.netsuite.com/app/bundler/bundledetails.nl?sourcecompanyid=7600508&domain=PRODUCTION&config=F&id=480015) will allow for read-only access
+2. It may take up to 5 minutes to install and you may be re-routed to the Installed Bundles page when the installation is complete
+
+![image.png](/Screenshot2025-08-07at9.12.00PM.png)
+
+[___<u>The bundle creates a role that can authenticate to NetSuite's API. For a full list of the role's permissions, see this article. The permissions may be updated, or a separate Role may be used, but doing so could result in permission issues.</u>___](https://help.merge.dev/en/articles/8250738-netsuite-bundle-details#h_b3d0a0731b)
+
+---
+
+## **Step Four: Assign User to Token-based Authentication Role**
+
+1. Open [<u>Manage Users</u>](https://system.netsuite.com/app/setup/listusers.nl?whence=)
+2. Either select a user to assign the Role to or create a new user
+   - Most users use an existing user (often yourself) so that an additional NetSuite seat is not consumed
+   - To create a new user, however, go to _Lists \> Employees \> Employees \> New_. Create the user and grant them NetSuite access by going to the \*\*Access tab \*\*in the Employee record and select **'Give Access'**
+3. In the user's employee record, click Edit and go to the Access tab. In your Access tab, go to Roles and select the Role you imported through the Import Bundle process in Step 3
+
+   ![image.png](/Screenshot2025-08-07at9.12.47PM.png)
+4. Click **Save** to apply these changes
+
+---
+
+## **Step Five: Create an integration to obtain your Consumer Key and Secret**
+
+1. Navigate to [<u>Integration</u>](https://system.netsuite.com/app/common/integration/integrapp.nl?whence=) and create an integration with the following details
+   - **NAME**: any value
+   - \*\*CONCURRENCY LIMIT: \*\*leave blank
+   - \*\*CALLBACK URL: \*\*[<u>https://app.merge.dev/oauth/callback</u>](https://app.merge.dev/oauth/callback)
+   - **REDIRECT URI**: [<u>https://app.merge.dev/oauth/callback</u>](https://app.merge.dev/oauth/callback)
+   - **Check the following boxes**
+     - REST WEB SERVICES
+     - TOKEN-BASED AUTHENTICATION
+     - TBA AUTHORIZATION FLOW
+
+<img
+  src="/Screenshot2025-08-07at9.13.31PM.png"
+  alt="image.png"
+  title="image.png"
+  className="mr-auto"
+/>
+
+​
+
+1. Once you click save, Copy the **Consumer Key** and **Consumer Secret** and store them in a safe place. They will only be shown once and you will need to enter it in [<u>Step 7</u>](https://help.merge.dev/en/articles/9939164-netsuite-how-do-i-link-my-account-abe#h_8b85cb6bcb).\
+   ​
+
+   ![image.png](/Screenshot2025-08-07at9.14.54PM.png)
+
+## **Step Six: Creating an Access Token to Obtain your Token ID and Secret.**
+
+1. Navigate to [<u>Access Token</u>](https://7600508-sb1.app.netsuite.com/app/setup/accesstoken.nl?whence=)
+2. Ensure the below details are selected and click **Save**
+   - \*\*Application Name: \*\*Name of the Integration created in Step 5
+   - **User:** User that the Role was added to during Step 4
+   - **Role:** The imported role (Merge Full Permissions or Merge Read-only Permissions)\
+     ​
+
+     <img
+       src="/Screenshot2025-08-07at9.15.59PM.png"
+       alt="image.png"
+       title="image.png"
+       style={{ width:"78%" }}
+     />
+3. Copy the **Token ID** and **Token Secret** and store them in a safe place. They will only be shown once and you will need to enter it in Step 7.
+
+![image.png](/Screenshot2025-08-07at9.16.49PM.png)
+
+## **Step Seven: Paste your Netsuite Consumer Key and Secret, and Token ID and Secret in Merge Link.**
+
+<img
+  src="/Screenshot2025-08-07at9.17.43PM.png"
+  alt="image.png"
+  title="image.png"
+  className="mx-auto"
+  style={{ width:"31%" }}
+/>
+
+1. CONSUMER_KEY: Confirmation screen after creating the integration (Step Five)
+2. CONSUMER_SECRET: Confirmation screen after creating the integration (Step Five)
+3. TOKEN_ID: From confirmation screen after creating your Access Token (Step Six)
+4. TOKEN_SECRET: From confirmation screen after creating your Access Token (Step Six)
+
+\*\*If you have any questions, please don’t hesitate to reach out to \*\*[**support@brmlabs.co**](mailto:connor@brmlabs.co)

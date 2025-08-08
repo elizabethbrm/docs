@@ -1,4 +1,105 @@
 ---
 title: "Netsuite Integration FAQ"
-description: "Description of your new file."
+description: "Common questions about connecting BRM to Netsuite"
 ---
+
+### What BRM Reads from NetSuite
+
+BRM's integration with Netsuite is view only. This integration allows BRM to securely access NetSuite data needed for procurement and expense workflows—without making any changes to your NetSuite environment.  This includes details about the vendors you pay, the frequency of payments, and the amounts being paid.
+
+In NetSuite terms, BRM needs view access to accounts, contacts, expense transactions (such as bill payments and direct expenses), and the web API. All access is scoped, view-only.
+
+### Permission Scope
+
+BRM has **view-only access** to the following NetSuite records:
+
+**Transactions – Vendor**
+
+- Bills
+- Bill Purchase Orders
+- Vendor Credits
+- Vendor Returns
+- Vendor Payments
+- Vendor Return Authorizations
+
+**Transactions – Customer**
+
+- Invoices
+- Sales Orders
+- Customer Payments
+- Customer Refunds
+
+**Transactions – General Financial**
+
+- Credit Memos
+- Deposits
+- Deposit Applications
+- Expense Reports
+- Cash Sales and Refunds
+- Statements
+
+**Transactions – Inventory**
+
+- Item Receipts
+- Inventory Adjustments
+- Inventory Transfers
+- Build/Unbuild Assemblies
+
+**Finance and Accounting**
+
+- Pay Bills
+- Pay Sales Tax
+- Currency Revaluation
+- Refunds
+- Reconciliations
+- Journal Entries 
+
+**Administrative Utilities**
+
+- Estimates
+- Credit Cards
+- Posting Periods
+- System Journals
+- Audit Trail
+- Transfer Funds
+- Opening Balances
+- Return Authorizations
+- Approval Statuses
+
+### Access and Security
+
+BRM’s NetSuite integration uses a scoped, view-only role. Only the minimum necessary records are accessed. No write access is granted to any records.
+
+### What can BRM do in our system?
+
+BRM **can** pull your expense data and enrich it with other sources, such as contracts, HR data, user activity, etc. However, it **cannot** make changes in NetSuite, meaning it cannot create bills, journal entries, or make edits. BRM’s access is strictly limited to view-only.
+
+### Can BRM change its own permissions?
+
+No. BRM cannot modify its own permissions. As the NetSuite admin, you control BRM’s permissions. BRM will provide a list of required view-only permissions required for BRM to work properly. Its access will not change unless you update it.
+
+### Does BRM have access to our login credentials?
+
+No. BRM can **never** see or store your NetSuite credentials (username or password), or log in to your NetSuite account.
+
+### How do permissions work?
+
+A virtual role must be created in NetSuite and assigned specific permissions. BRM uses a secure token (a system-generated password) to access that role. The token works only within the limits of the assigned role.
+
+### What about other data?
+
+Can BRM see revenue or transactional data? 
+
+- No, BRM does not require revenue or transactional data and will not request access.
+
+Can BRM see payroll data? 
+
+- No, payroll data is not required and will never be part of BRM’s access.
+
+### Can BRM see journal entries?
+
+No. BRM doesn't have access to journal entries in Netsuite.
+
+### Does BRM surface the NetSuite vendor ID in BRM?
+
+No. BRM can't automatically show the NetSuite vendor ID on vendors in BRM.  BRM intelligently merges duplicate NetSuite vendors, so Netsuite ID's don't always match 1:1 with BRM vendors.
