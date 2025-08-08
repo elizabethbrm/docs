@@ -111,7 +111,7 @@
           {
             "group": "Use Case",
             "pages": [
-              "essentials/markdown",
+              "content/use-case/brm-for-approvers",
               "essentials/code",
               "essentials/images",
               "essentials/reusable-snippets"
