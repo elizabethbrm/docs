@@ -91,19 +91,21 @@
               {
                 "group": "Credit Cards",
                 "pages": [
-                  "content/integrations/credit-cards/index"
+                  "content/integrations/credit-card/brex",
+                  "content/integrations/credit-card/ramp"
                 ]
               },
               {
                 "group": "HRIS",
                 "pages": [
-                  "content/integrations/hris/index"
+                  "content/integrations/hris/deel",
+                  "content/integrations/hris/UKG"
                 ]
               },
               {
                 "group": "Messaging",
                 "pages": [
-                  "content/integrations/messaging/index"
+                  "content/integrations/messaging/slack"
                 ]
               }
             ]
