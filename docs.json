@@ -61,7 +61,7 @@
               {
                 "group": "Requests",
                 "pages": [
-                  "product-features/requests/request-overview"
+                  "product-features/requests/request-overview",
                   "product-features/requests/firstrequest",
                   "product-features/requests/custom-request",
                   "product-features/requests/custom-criteria",
